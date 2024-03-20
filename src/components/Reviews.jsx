@@ -47,7 +47,7 @@ const Reviews = () => {
                 </div>
             </div>
             <div className='mt-10 flex justify-between items-center'>
-                <div className='ms-2 px-1 py-1 rounded-md' style={{ border: "1px solid black" }}>
+                <div className='ms-1 mr-2 px-1 py-1 rounded-md' style={{ border: "1px solid black" }}>
                     <img src={arrowLeft} alt="" />
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 h-[210px] overflow-hidden'>
@@ -67,7 +67,7 @@ const Reviews = () => {
                         })
                     }
                 </div>
-                <div className='mr-2 px-1 py-1 rounded-md' style={{ border: "1px solid black" }}>
+                <div className='mx-2 px-1 py-1 rounded-md' style={{ border: "1px solid black" }}>
                     <img src={arrowRight} alt="" />
                 </div>
             </div>
