@@ -66,9 +66,9 @@ const Events = () => {
         <>
             <div className='container mx-auto max-w-full  md:mb-10 mb-6'>
                 <p className='text-black text-3xl my-6 lg:ps-12 mx-4 mb-4 text-center md:text-start'>Featured Events On Sale Today</p>
-                <div className='flex justify-between flex-wrap  gap-4 mx-4 mb-10 text-xl'>
-                    <p className='text-black  lg:ps-10'>Filter By :</p>
-                    <div className='flex gap-4 lg:ap-10'>
+                <div className='flex justify-between flex-wrap gap-4 mx-4 mb-10 text-xl'>
+                    <p className='text-black lg:ps-10'>Filter By :</p>
+                    <div className='flex flex-wrap gap-4 lg:gap-10'>
                         <a href='/' className='text-[#29ADA5] font-bold font-mono underline'>ALL</a>
                         <a href="" className='text-[#29ADA5] font-bold font-mono underline'>Sports</a>
                         <a href="" className='text-[#29ADA5] font-bold font-mono underline'>Concerts</a>
